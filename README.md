@@ -1,2 +1,2 @@
-# homebrew-cvextras
-Extra custom Homebrew formulas for config-vault
+# homebrew-extras
+Extra custom Homebrew casks and formulas
