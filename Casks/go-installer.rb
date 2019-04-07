@@ -11,5 +11,5 @@ cask 'go-installer' do
 
   pkg "go#{version}.darwin-amd64.pkg"
   
-  uninstall delete: '/usr/local/go'  
+  uninstall pkgutil: 'com.googlecode.go'
 end
