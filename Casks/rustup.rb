@@ -13,6 +13,8 @@ cask 'rustup' do
   
   uninstall script: {
                       executable: "#{File.expand_path('~/.cargo/bin/rustup')}",
-                      args: ['self', 'uninstall', '-y']
+                      args: ['self', 'uninstall', '-y'],
+                      must_succeed: false
                     }
+  uninstall rmdir: ["~/.cargo"]
 end
