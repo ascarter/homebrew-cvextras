@@ -3,6 +3,7 @@ cask 'awscli-bundled' do
   sha256 :no_check
 
   url 'https://s3.amazonaws.com/aws-cli/awscli-bundle.zip'
+  appcast 'https://github.com/aws/aws-cli/releases.atom'
   name 'AWS CLI (Bundled)'
   homepage 'https://aws.amazon.com/cli/'
 
