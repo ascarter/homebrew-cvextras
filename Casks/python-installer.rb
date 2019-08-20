@@ -1,6 +1,6 @@
 cask 'python-installer' do
-  version '3.7.3'
-  sha256 'ecca0dd496cf06a0c0bc739e1a2fcec68c86eb79580fe4524c49c6f22246dd3d'
+  version '3.7.4'
+  sha256 '9c7771bc539c619e47aed34074d07d67abb80013610754a561bbc40d70eefe5b'
 
   url "https://www.python.org/ftp/python/#{version}/python-#{version}-macosx10.9.pkg"
   name 'Python Programming Language'
