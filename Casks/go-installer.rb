@@ -1,6 +1,6 @@
 cask 'go-installer' do
-  version '1.13.1'
-  sha256 'aff91ee21105f918eb7bab8e625a823ea4f0a3d0e2c0c6866d012bc158c78692'
+  version '1.13.3'
+  sha256 '75f39b2d2b98ab7fe262252cb3f87b14bce71c16df8b9df7ae0fb1db1ba2576c'
 
   url "https://dl.google.com/go/go#{version}.darwin-amd64.pkg"
   appcast 'https://github.com/golang/go/releases.atom'
