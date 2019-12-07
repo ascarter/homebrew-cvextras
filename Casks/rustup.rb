@@ -7,7 +7,7 @@ cask 'rustup' do
   homepage 'https://www.rust-lang.org/'
 
   installer script: {
-                      executable: "rustup-init.sh",
+                      executable: "#{staged_path}/rustup-init.sh",
                       args: ['-y', '--no-modify-path']
                     }
   
@@ -16,5 +16,4 @@ cask 'rustup' do
                       args: ['self', 'uninstall', '-y'],
                       must_succeed: false
                     }
-  uninstall rmdir: ["~/.cargo"]
 end
