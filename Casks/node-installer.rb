@@ -1,6 +1,6 @@
 cask 'node-installer' do
-  version '13.9.0'
-  sha256 '72d13b279f5447b3e6dfac95a519865c0ec742d78b96c55be73575a7e1a22da6'
+  version '13.12.0'
+  sha256 'd78bdd6bc5f3727189cb733e035c0e07b649248b065bc677aedfc476f0e8307d'
 
   url "https://nodejs.org/dist/v#{version}/node-v#{version}.pkg"
   appcast 'https://github.com/nodejs/node/releases.atom'
