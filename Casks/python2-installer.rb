@@ -6,8 +6,6 @@ cask 'python2-installer' do
     name 'Python Programming Language'
     homepage 'https://python.org'
 
-    depends_on macos: '>= :mavericks'
-
     pkg "python-#{version}-macosx10.9.pkg",
       choices: [
         {
