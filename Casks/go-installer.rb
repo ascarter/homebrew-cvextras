@@ -9,5 +9,5 @@ cask 'go-installer' do
 
   pkg "go#{version}.darwin-amd64.pkg"
 
-  uninstall pkgutil: 'com.googlecode.go'
+  uninstall pkgutil: 'org.golang.go'
 end
